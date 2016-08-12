@@ -1,0 +1,64 @@
+<style type="text/css">
+	*{margin: 0;padding: 0;}
+	
+	ul {
+		overflow: hidden;
+		height: 30px;
+		/*height: 15px;*/
+	}
+	#list li{
+			list-style: none;
+			float: left;
+			height:60px;
+			width:100px;
+			border:1px solid #f00;
+			transition:margin-top .5s;
+
+			
+		}
+		
+		#list a,#list span{
+			display: block;
+			width:100px;
+			height:30px;
+			text-align: center;
+			line-height: 30px;
+		}
+		#list a{
+			background-color: #4CAF50;
+			text-decoration: none;
+			background-position: 0 bottom;
+		}
+		#list span{
+			background-color: #795548;
+		}
+		li:hover{
+			margin-top: -30px;
+		}
+		
+	</style>
+</head>
+<body>
+	<ul id="list">
+		<li>
+			
+				<span>content</span>
+				<a href="">content</a>
+			
+		</li>
+		<li>
+			
+				<span>about</span>
+				<a href="">about</a>
+			
+		</li>
+		<li>
+			
+				<span>home</span>
+				<a href="">home</a>
+			
+		</li>
+		
+		
+		
+	</ul>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画卡通小实验</title>
+	<style>
+		@-webkit-keyframes run{
+ 	0%{transform:translate(0,0) rotate(0);
+ 		-webkit-transform:translate(0,0) rotate(0)
+ 		 }
+	 50%{
+	 	transform:translate(200px) rotate(90deg);
+	 	-webkit-transform:translate(200px) rotate(90deg) 
+	 }
+ 	100%{
+ 		transform:translate(300px) rotate(180deg);
+ 		-webkit-transform:translate(300px) rotate(180deg) 
+ 	}
+}
+	.box{
+		width: 100px;
+		height: 100px;
+		background-color: #E91E63;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 100px;
+		animation:run 3s  linear infinite;
+		-webkit-animation:run 3s linear  infinite;
+	}
+	.box2{
+		width: 100px;
+		height: 100px;
+		background-color: #00BCD4;
+		border-radius: 50%;
+	}
+	</style>
+</head>
+<body>
+	<h1>css3过渡</h1>
+	<div class="box">h</div>
+	<div class="box2">m</div>
+</body>
+</html>

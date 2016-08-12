@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+
+		*{margin: 0;padding: 0;}
+				@keyframes myfirst
+		{
+		from {background: red;}
+		to {background: yellow;}
+		}
+
+		@-moz-keyframes myfirst /* Firefox */
+		{
+		from {background: red;}
+		to {background: yellow;}
+		}
+
+		@-webkit-keyframes myfirst /* Safari 和 Chrome */
+		{
+		from {background: red;}
+		to {background: yellow;}
+		}
+
+		@-o-keyframes myfirst /* Opera */
+		{
+		from {background: red;}
+		to {background: yellow;}
+}
+		a{
+			text-decoration: none;
+		}
+		.subnav{
+			display: none;
+		}
+		body{
+			background-color: #666;
+		}
+		ul{
+			list-style: none;
+		}
+
+		.subnav{
+			position: absolute;
+			left: 0;
+			top: 36px;
+			width: 160px;
+			background-color: #fff;
+		}
+		
+		.subnav li{
+			text-align: center;
+		}
+		.mainnav>li
+			{
+				position:relative;
+				float: left;
+			padding: 0 15px;
+			background-color: #fff;
+			line-height: 36px;
+			
+		}
+		.mainnav>li:hover ul{
+			animation:myfirst 2s forwards;-webkit-animation:myfirst 0.5s forwards;
+			display: block;
+		}
+		.mainnav>li>a{color: #333;}
+	</style>
+</head>
+<body>
+	<ul class="mainnav">
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+		<li >
+
+			<a href="">home</a>
+			<ul class="subnav">
+				<li><a href="#">home</a></li>
+				<li><a href="#">home</a></li>
+				<li><a href="#">home</a></li>
+				<li><a href="#">home</a></li>
+			</ul>
+
+		</li>
+		<li><a href="">home</a></li>
+		<li><a href="">home</a></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,164 @@
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+		/*top部分*/
+		.top{
+			margin: 0 auto;
+			width: 980px;
+			height: 143px;
+			
+		}
+		.logo{
+			width: 449px;
+			height: 143px;
+			float: left;
+		}
+		.nav{
+			line-height: 60px;
+			width: 530px;
+			height: 142px;
+			float: right;
+		}
+		.nav li{
+			float: left;
+			margin-left: 28px;
+			color: #fff;
+			list-style: none;
+			font-size: 14px;
+			font-family: verdana;
+			padding-top: 50px;
+		}
+		
+		.nav li a{
+			text-decoration: none;
+			color: #7f7f7f;
+		}
+		.nav li a:hover{
+			/*text-decoration: underline;*/
+			color: #cb2700;
+		}
+		/*主体部分*/
+		.main_inner{
+			width: 940px;
+			height: 890px;
+			margin: 0 auto;
+		}
+		.main_top{
+			height: 222px;
+			
+		}
+		.pic1,.pic2,.pic3{
+			margin-top: 42px;
+			width: 300px;
+			height: 180px;
+			float: left;
+		}
+		.pic1{
+			background-image: url(../images/pic1.jpg);
+		}
+		.pic2{
+			background-image: url(../images/pic2.jpg);
+		}
+		.pic3{
+			background-image: url(../images/pic3.jpg);
+		}
+		.main_top a img{
+			width: 92px;
+			height: 36px;
+			margin-top: 113px;
+			margin-left: 20px;
+		}
+		.pic2{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.content{
+			width: 640px;
+			height: 676px;
+			float: left;
+			
+		}
+		.content h3{
+			color: #fff;
+			width: 640px;
+			height: 40px;
+			font-size: 28px;
+			font-weight: bold;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		
+		}
+		.paper .more{
+			display: block;
+			width: 106px;
+			height: 40px;
+			color: #fff;
+			background-image: url(../images/more_bg.png);
+			font-size: 30px;
+			text-decoration: none;
+			text-align: center;
+			border-radius: 10px;
+		}
+		.sidebar{
+			width: 300px;
+			height: 676px;
+			float: left;
+			
+		}
+		.sidebar h3{
+			border-radius: 10px;
+			width: 300px;
+			height: 60px;
+			font-size: 28px;
+			font-weight: bold;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			background-image: url(../images/our_bg.jpg);
+			line-height: 60px;
+			margin-top: 40px;
+			text-indent: 20px;
+			color: #fff;
+		}
+
+		/*footer部分*/
+		.footer{
+			height: 124px;
+			background-image: url(../images/footer_bg.jpg);
+		}
+		.footer_inner{
+			width: 940px;
+			margin: 0 auto;
+			}
+		.sitemap{
+			width: 408px;
+			float: right;
+			
+		}
+		.copyright{
+			padding-top: 30px;
+			float: left;
+			width: 532px;
+			/*margin-top: 28px;*/
+			font-size: 16px;
+			text-align: center;
+			color: #7f7f7f;
+			line-height: 28px;
+			font-family: verdana;
+		}
+		.copyright a{
+			color: #cb2800;
+		}
+		.sitemap{
+			line-height: 124px;
+		}
+		.sitemap ul{
+			margin-top: 6px;
+			padding-left: 166px;
+		}
+		.sitemap li{
+			margin-left: 10px;
+			float: left;
+			list-style: none;
+		}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动画小导航</title>
+	<style type="text/css">
+	@keyframes flash{
+		0%{background-color: #E64A19;Text-shadow:0px 0px 5px #999;}
+		20%{background-color:#FFCCBC;Text-shadow:0px 0px 15px #555;}
+		100%{background-color:#E64A19;Text-shadow:0px 0px 100px #999;}
+	}
+	@-webkit-keyframes flash{
+		0%{background-color:#E64A19;Text-shadow:0px 0px 5px #999;}
+		20%{background-color:#FFCCBC;Text-shadow:0px 0px 15px #555;}
+		100%{background-color:#E64A19;Text-shadow:0px 0px 100px #999;}
+	}
+		.box{
+			margin: 0 auto;
+		}
+		.box ul{
+			list-style: none;
+			
+		}
+		.box ul li{
+			border: 1px solid #00BCD4;
+			width: 100px;
+			height: 30px;
+			float: left;
+			background-color: #FF9800;
+			line-height: 30px;
+			color: white;
+			text-align: center;
+		
+		
+		}
+		.box ul li a{
+			display: block;
+			color: #eee;
+			text-decoration: none;
+			font-family: fantasy;
+			font-style: 16px;
+		}
+		.box ul li a:hover{
+			animation:flash 0.5s forwards;-webkit-animation:flash 0.5s forwards;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li><a href="">nav1</a></li>
+			<li><a href="">nav2</a></li>
+			<li><a href="">nav3</a></li>
+			<li><a href="">nav4</a></li>
+		</ul>
+	</div>
+</body>
+</html>
